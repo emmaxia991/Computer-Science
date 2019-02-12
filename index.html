@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>final project</title>
+    
+	<meta charset="UTF-8">		
+<!--	yx5nc final <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+  
+    <script   src="http://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+    <link href="http://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script   src="http://code.jquery.com/ui/1.12.0/jquery-ui.js"   integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="   crossorigin="anonymous"></script>
+    
+<!--
+	<link rel="stylesheet" href="../fonts/Angelina-fontfacekit/stylesheet.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../fonts/permanent-marker-fontfacekit/stylesheet.css" type="text/css" media="all">
+-->
+    
+	<script src="app.js"></script>
+    	<script src="background.js"></script>
+<!-- using external css here-->
+    <link rel="stylesheet" type="text/css" href="app.css">
+    
+</head>
+<body id="content" onload="pageLoaded()">
+   
+    <h1 id="title">title</h1>
+    <div id="stage">
+        <div id="photoMenu">
+            <ul id="menuItems"></ul>
+        </div>
+
+        <div id="photoDisplay">
+            <h1 id="photoTitle"> photoTitle</h1>
+            <div id="imageFrame">
+            </div>
+        </div>
+    </div>
+    <div id="bar"> 
+        <div id="pages">  
+           <a href="page1.php">2018 Timeline</a>
+            <br>
+            <a href="page2.php">polaroid</a>
+        </div>
+    </div>
+    
+<!--    connect to the login.php-->
+   <div id="login"> 
+       <a href="login_form.php"><img src="pics/me.png" alt="me"><br>
+           <div id="l">log in</div></a>
+         <a href="logout.php">log out</a>
+    </div>
+        
+    </body>
+</html>

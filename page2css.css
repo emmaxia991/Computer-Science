@@ -1,0 +1,64 @@
+
+        @font-face{
+            font-family:myFont;
+            src: url("fonts/PermanetMarker.ttf");
+        }
+    	body {
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-color: #000;
+				background-size: cover;
+			}
+        .inline{
+            display: inline-block; 
+        }
+        .polaroid:hover{
+            transform: rotate(0deg);
+            box-shadow: 0 0 10px #555;
+            z-index: 1;
+            
+        }
+        .polaroid {
+            width: 480px;
+            padding: 10px 10px 20px 10px;
+/*            margin: 20px;*/
+            text-align: center;
+            border: 1px solid #888;
+            background-color: white;
+            font-size: 16pt;
+            
+            position: relative;
+            font-family: myFont, Arial, sans-serif;
+            transform: transform 0.5s;
+            float:left;
+        }
+        
+        .rotateLeft {
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+        .rotateRight {
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+        img {
+            height: 400px;
+            width: 460px; 
+        }
+        @keyframes spin{
+            from {
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(1720deg);
+            }
+        }
+h1{
+    text-align: center;
+}
+/*display container*/
+    #map{
+
+    }

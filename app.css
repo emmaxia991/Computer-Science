@@ -1,0 +1,125 @@
+
+body {
+	background-color: #EEE;
+	margin: 20px 0 0 0;
+}
+
+#title {
+	position: relative;
+	text-align: center;
+	font-family: AngelinaRegular, arial, helvetica, sans-serif;
+	font-size: 2em;
+/*	margin-bottom: -17px;   bring title down to go over box */
+	z-index: 100;  /* make sure the title is on top of everything else */
+}
+
+#stage {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	background-color: lightgrey;
+	border: 2px solid white;
+	margin: 0 auto;
+    border-radius: 30px;
+}
+
+#photoMenu {
+	position: absolute;
+	top: 56px;
+	left: 30px;
+	width: 240px;
+	height: 300px;
+	background-color: white;
+	border: 2px solid #555;
+	overflow: auto;
+}
+
+#photoMenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#photoMenu li {
+	padding: 3px 0 3px 3px;
+	background-color: lightsteelblue;
+	border: 1px solid lightskyblue;
+	font-family: AngelinaRegular, arial, helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#photoMenu li:hover {
+	background-color: #eeeeee;
+}
+
+#photoMenu .thumbnail {
+	width: 50px;
+	vertical-align: middle;
+	margin-right: 6px;
+	border: 1px solid #555;
+}
+
+#photoTitle {
+	width: 450px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+    font-family: permanent_markerregular, arial, helvetica, sans-serif;
+	font-size: 1.35em;
+}
+
+#photoDisplay {
+	position: absolute !important;
+	top: 25px;
+	left: 300px;
+	width: 450px;
+	height: 300px;
+}
+
+#imageFrame {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 300px;
+	overflow: hidden;
+	border: 2px solid #555;
+	background-color: white;
+
+}
+
+.imageHolder {
+	position: absolute;
+	top: 0px;
+	left: 450px;
+	display: block;
+	width: 450px;
+	height: 300px;
+	transition: left 0.5s;
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+
+}
+
+#login{
+    float:right;
+    padding:20px;
+    border-radius: 50%;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+#pages{
+    padding: 0 0 0 320px; 
+    font-size: 20px;
+}
+a{
+    color:coral;
+}
+#loginHeader {
+    background-color: #8cd0f7 !important;
+    background-image: none !important;
+}
